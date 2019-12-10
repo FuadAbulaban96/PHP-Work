@@ -73,6 +73,7 @@ include('../includes/admin_header.php');
 									<th>Category ID</th>
 									<th>Category Name</th>
 									<th>Category Image</th>
+									<th>Category Products</th>
 									<th>Edit</th>
 									<th>Delete</th>
 								</tr>
@@ -86,9 +87,10 @@ include('../includes/admin_header.php');
 									echo "<tr>";
 									echo "<td>{$row['cat_id']}</td>";
 									echo "<td>{$row['cat_name']}</td>";
-									echo "<td><img src='upload/{$row['cat_image']}'></td>";
-									echo "<td><a href = 'edit_category.php?cat_id={$row['cat_id']} ' class = 'btn btn-warning'>Edit</a></td>";
-									echo "<td><a href = 'delete_category.php?cat_id={$row['cat_id']} ' class = 'btn btn-danger'>Delete</a></td>";
+									echo "<td><img src ='upload/{$row['cat_image']}'></td>";
+									echo "<td><a href  = 'viewproducts_category.php?cat_id={$row['cat_id']} ' class = 'btn btn-info'>View</a></td>";
+									echo "<td><a href  = 'edit_category.php?cat_id={$row['cat_id']} ' class = 'btn btn-warning'>Edit</a></td>";
+									echo "<td><a href  = 'delete_category.php?cat_id={$row['cat_id']} ' class = 'btn btn-danger'>Delete</a></td>";
 									echo"</tr>";
 								}
 

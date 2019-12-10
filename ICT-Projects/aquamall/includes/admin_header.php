@@ -83,6 +83,10 @@
                                 <i class="fas fa-chart-bar"></i>Manage Category</a>
                         </li>
                         <li>
+                            <a href="../admin/manage_product.php">
+                                <i class="fas fa-chart-bar"></i>Manage Product</a>
+                        </li>
+                        <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
@@ -197,6 +201,10 @@
                         <li>
                             <a href="../admin/manage_category.php">
                                 <i class="fas fa-chart-bar"></i>Manage Category</a>
+                        </li>
+                        <li>
+                            <a href="../admin/manage_product.php">
+                                <i class="fas fa-chart-bar"></i>Manage Product</a>
                         </li>
                         <li>
                             <a href="chart.html">
